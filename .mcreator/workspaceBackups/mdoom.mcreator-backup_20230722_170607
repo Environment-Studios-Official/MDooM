@@ -236,6 +236,25 @@
           }
         ]
       }
+    },
+    {
+      "name": "CrucibleKazhdyiTikVRukie",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_kazhdyi_tik_v_rukie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/CrucibleKazhdyiTikVRukieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
