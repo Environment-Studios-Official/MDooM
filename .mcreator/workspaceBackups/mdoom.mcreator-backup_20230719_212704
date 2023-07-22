@@ -1,0 +1,295 @@
+{
+  "mod_elements": [
+    {
+      "name": "Crucible",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mdoom/models/item/crucible.json",
+          "src/main/java/net/mcreator/mdoom/item/CrucibleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CruciblePriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/CruciblePriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrucibleHandle",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_handle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mdoom/models/item/crucible_handle.json",
+          "src/main/java/net/mcreator/mdoom/item/CrucibleHandleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedCrusibleHandle",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crusible_handle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mdoom/models/item/advanced_crusible_handle.json",
+          "src/main/java/net/mcreator/mdoom/item/AdvancedCrusibleHandleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mdoom/recipes/crucible_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CruciblePriPoluchieniiPriedmietaPoRietsieptu",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_pri_poluchienii_priedmieta_po_rietsieptu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/CruciblePriPoluchieniiPriedmietaPoRietsieptuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArgentEnergy",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "argent_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/item/ArgentEnergyItem.java",
+          "src/main/resources/assets/mdoom/models/item/argent_energy.json"
+        ]
+      }
+    },
+    {
+      "name": "FullCrucibleRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_crucible_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mdoom/recipes/full_crucible_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ammo",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/item/AmmoItem.java",
+          "src/main/resources/assets/mdoom/models/item/ammo.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavyGun",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/item/HeavyGunItem.java",
+          "src/main/resources/assets/mdoom/models/item/heavy_gun.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavyGunUsage",
+      "type": "rangeditem",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "heavy_gun_usage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/item/HeavyGunUsageItem.java",
+          "src/main/java/net/mcreator/mdoom/entity/HeavyGunUsageEntity.java",
+          "src/main/resources/assets/mdoom/models/item/heavy_gun_usage.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavyGunPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_gun_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/HeavyGunPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeavyGunUsagePoslieIspolzovaniiaSnariada",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_gun_usage_poslie_ispolzovaniia_snariada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/HeavyGunUsagePoslieIspolzovaniiaSnariadaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrucibleKazhdyiTikVRukie",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_kazhdyi_tik_v_rukie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/CrucibleKazhdyiTikVRukieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mdoom.argent_energy": "Clot of Argent Energy",
+      "item.mdoom.heavy_gun": "Heavy Gun (No Ammo)",
+      "item.mdoom.crucible_handle": "Crucible Handle",
+      "item.mdoom.heavy_gun_usage": "Heavy Gun",
+      "item.mdoom.advanced_crusible_handle": "Advanced Crusible Handle",
+      "item.mdoom.ammo": "Ammo",
+      "item.mdoom.crucible": "Crucible"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mdoom",
+    "modName": "MDooM",
+    "version": "1.0.0",
+    "author": "admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "net.mcreator.mdoom",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

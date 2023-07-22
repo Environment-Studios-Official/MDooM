@@ -1,0 +1,43 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "ieuchie",
+    "customModelName": "the_crucible_of_:default",
+    "name": "Crucible",
+    "specialInfo": [
+      "The Crucible",
+      "the sacred relic of the Guardians. This sword still remains one of the most mysterious artifacts known to mankind. In the writings of Argent D'nour",
+      "he is spoken of with awe and reverence. Although the Night Guards also used similar energy blades",
+      "the Crucible remains the only weapon capable of defeating the Titans. Only the Executioner of Doom retained knowledge about this venerable blade",
+      "because he was the only one who carried it. The blade of the sword burns with a divine flame",
+      "instantly cauterizing the flesh through which it passes."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 6,
+    "efficiency": 1.0,
+    "attackSpeed": 1.6,
+    "enchantability": 0,
+    "damageVsEntity": 1000.0,
+    "usageCount": 3,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "CruciblePriPoluchieniiPriedmietaPoRietsieptu"
+    },
+    "onEntityHitWith": {
+      "name": "CruciblePriShchielchkiePKMPoBloku"
+    },
+    "onItemInUseTick": {
+      "name": "CrucibleKazhdyiTikVRukie"
+    }
+  }
+}
