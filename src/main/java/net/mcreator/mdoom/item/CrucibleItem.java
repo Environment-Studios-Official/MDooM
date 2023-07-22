@@ -8,7 +8,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
@@ -17,10 +16,6 @@ import net.minecraft.network.chat.Component;
 import net.mcreator.mdoom.procedures.CruciblePriShchielchkiePKMPoBlokuProcedure;
 import net.mcreator.mdoom.procedures.CruciblePriPoluchieniiPriedmietaPoRietsieptuProcedure;
 import net.mcreator.mdoom.procedures.CrucibleKazhdyiTikVRukieProcedure;
-
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
 
 import java.util.List;
 
@@ -48,25 +43,19 @@ public class CrucibleItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 		}, 3, -2.4f, new Item.Properties().fireResistant());
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
-		Level world = entity.level();
-		CruciblePriShchielchkiePKMPoBlokuProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		CruciblePriShchielchkiePKMPoBlokuProcedure.execute(entity);
 		return retval;
 	}
 
 	@Override
-	@Environment(EnvType.CLIENT)
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("The Crucible"));
@@ -80,13 +69,13 @@ public class CrucibleItem extends SwordItem {
 	@Override
 	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
 		super.onCraftedBy(itemstack, world, entity);
-		CruciblePriPoluchieniiPriedmietaPoRietsieptuProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		CruciblePriPoluchieniiPriedmietaPoRietsieptuProcedure.execute(entity);
 	}
 
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			CrucibleKazhdyiTikVRukieProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+			CrucibleKazhdyiTikVRukieProcedure.execute(entity);
 	}
 }

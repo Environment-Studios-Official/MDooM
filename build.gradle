@@ -1,57 +1,63 @@
-plugins {
-    id 'fabric-loom' version '1.2-SNAPSHOT'
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+    }
 }
 
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
 
-archivesBaseName = 'modid'
-version = '1.0.0'
+version = '1.0'
 group = 'com.yourname.modid'
-actualmodid = 'mdoom'
+archivesBaseName = 'modid'
 
-loom {
-    mixin {
-        defaultRefmapName = actualmodid + ".refmap.json"
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.19.4'
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
     }
 }
 
 dependencies {
-    minecraft "com.mojang:minecraft:1.20.1"
-    mappings loom.officialMojangMappings()
-    modImplementation "net.fabricmc:fabric-loader:0.14.21"
-
-    //Fabric api
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.83.1+1.20.1"
-}
-
-processResources {
-    inputs.property "version", project.version
-
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version
-    }
+    minecraft 'net.minecraftforge:forge:1.19.4-45.1.0'
 }
 
 tasks.withType(JavaCompile).configureEach {
-    it.options.release = 17
-}
-
-java {
-    withSourcesJar()
-
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
-}
-
-jar {
-    from "LICENSE"
-}
-
-loom {
-	mixin {
-		defaultRefmapName = actualmodid + ".refmap.json"
-	}
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
 apply from: 'mcreator.gradle'
+
