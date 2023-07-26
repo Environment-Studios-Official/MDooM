@@ -1,6 +1,0 @@
-{
-  "parent": "mdoom:displaysettings/heavygun.item",
-  "textures": {
-    "layer0": "mdoom:item/heavygun"
-  }
-}

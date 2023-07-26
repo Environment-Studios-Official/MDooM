@@ -31,10 +31,10 @@ public class HeavyGunPriShchielchkiePKMProcedure {
 				}
 				return false;
 			}
-		}.checkGamemode(entity) && (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MdoomModItems.ARGENT_ENERGY.get()
+		}.checkGamemode(entity) && (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MdoomModItems.HEAVY_GUN_ITEM.get()
 				&& (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(MdoomModItems.AMMO.get())) : false)) {
 			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(MdoomModItems.HEAVY_GUN_USAGE.get());
+				ItemStack _setstack = new ItemStack(MdoomModItems.HEAVY_GUN_GUN.get());
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
@@ -43,7 +43,7 @@ public class HeavyGunPriShchielchkiePKMProcedure {
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(MdoomModItems.ARGENT_ENERGY.get());
+				ItemStack _stktoremove = new ItemStack(MdoomModItems.HEAVY_GUN_ITEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (world instanceof Level _level) {
@@ -71,15 +71,15 @@ public class HeavyGunPriShchielchkiePKMProcedure {
 				}
 				return false;
 			}
-		}.checkGamemode(entity) && (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MdoomModItems.ARGENT_ENERGY.get()
+		}.checkGamemode(entity) && (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MdoomModItems.HEAVY_GUN_ITEM.get()
 				&& (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(MdoomModItems.AMMO.get())) : false)) {
 			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(MdoomModItems.HEAVY_GUN_USAGE.get());
+				ItemStack _setstack = new ItemStack(MdoomModItems.HEAVY_GUN_GUN.get());
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
 			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(MdoomModItems.ARGENT_ENERGY.get());
+				ItemStack _stktoremove = new ItemStack(MdoomModItems.HEAVY_GUN_ITEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (world instanceof Level _level) {

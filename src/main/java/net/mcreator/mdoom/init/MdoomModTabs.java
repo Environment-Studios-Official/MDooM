@@ -16,8 +16,9 @@ public class MdoomModTabs {
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
 		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
-			tabData.accept(MdoomModItems.CRUCIBLE.get());
 			tabData.accept(MdoomModItems.AMMO.get());
+			tabData.accept(MdoomModItems.HEAVY_GUN_ITEM.get());
+			tabData.accept(MdoomModItems.THE_CRUCIBLE.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {

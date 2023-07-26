@@ -1,8 +1,9 @@
 {
   "item.mdoom.argent_energy": "Clot of Argent Energy",
+  "item.mdoom.heavy_gun_item": "Heavy Gun (No Ammo)",
   "item.mdoom.crucible_handle": "Crucible Handle",
-  "item.mdoom.heavy_gun_usage": "Heavy Gun ",
   "item.mdoom.advanced_crusible_handle": "Advanced Crusible Handle",
   "item.mdoom.ammo": "Ammo",
-  "item.mdoom.crucible": "Crucible"
+  "item.mdoom.heavy_gun_gun": "Heavy Gun",
+  "item.mdoom.the_crucible": "The Crucible"
 }

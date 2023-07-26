@@ -32,6 +32,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mdoom.init.MdoomModItems;
+import net.mcreator.mdoom.init.MdoomModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,6 +53,7 @@ public class MdoomMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		MdoomModItems.REGISTRY.register(bus);
+		MdoomModEntities.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}
