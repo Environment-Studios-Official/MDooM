@@ -14,7 +14,7 @@
     "ammoItem": {
       "value": ""
     },
-    "shootConstantly": false,
+    "shootConstantly": true,
     "usageCount": 64,
     "actionSound": {
       "value": ""

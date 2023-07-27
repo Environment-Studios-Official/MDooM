@@ -38,7 +38,7 @@ public class HeavyGunGunItem extends Item {
 	}
 
 	@Override
-	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entityLiving, int timeLeft) {
+	public void onUseTick(Level world, LivingEntity entityLiving, ItemStack itemstack, int count) {
 		if (!world.isClientSide() && entityLiving instanceof ServerPlayer entity) {
 			double x = entity.getX();
 			double y = entity.getY();
@@ -48,6 +48,7 @@ public class HeavyGunGunItem extends Item {
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 				HeavyGunUsagePoslieIspolzovaniiaSnariadaProcedure.execute(world, x, y, z, entity, itemstack);
+				entity.releaseUsingItem();
 			}
 		}
 	}
