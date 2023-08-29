@@ -25,10 +25,4 @@ authors="admin, MCreator"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.mdoom]]
-    modId="playeranimator"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

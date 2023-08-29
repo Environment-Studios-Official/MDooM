@@ -16,7 +16,15 @@ public class MdoomModTabs {
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
 		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
+			tabData.accept(MdoomModItems.AMMO.get());
+			tabData.accept(MdoomModItems.HEAVY_GUN_ITEM.get());
 			tabData.accept(MdoomModItems.THE_CRUCIBLE.get());
+		}
+
+		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(MdoomModItems.CRUCIBLE_HANDLE.get());
+			tabData.accept(MdoomModItems.ADVANCED_CRUSIBLE_HANDLE.get());
+			tabData.accept(MdoomModItems.ARGENT_ENERGY.get());
 		}
 	}
 }

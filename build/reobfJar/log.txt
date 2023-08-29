@@ -3,7 +3,6 @@ Arguments: '--in-jar, C:\Users\admin\MCreatorWorkspaces\mdoom\build\libs\modid-1
 Classpath:
  - C:\Users\admin\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - C:\Users\admin\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.19.4\4.1.3_mapped_official_1.19.4\geckolib-forge-1.19.4-4.1.3_mapped_official_1.19.4.jar
- - C:\Users\admin\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\dev\kosmx\player-anim\player-animation-lib-forge\1.0.2+1.19.4_mapped_official_1.19.4\player-animation-lib-forge-1.0.2+1.19.4_mapped_official_1.19.4.jar
  - C:\Users\admin\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar
  - C:\Users\admin\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.4\client-extra.jar
  - C:\Users\admin\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.4-45.1.0\19f2cac18253bfe899117e601fcbef66d28ebe08\fmlloader-1.19.4-45.1.0.jar
