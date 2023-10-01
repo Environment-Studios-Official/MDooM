@@ -61,6 +61,6 @@ public class TheCrucibleItem extends SwordItem {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			CrucibleKazhdyiTikVRukieProcedure.execute(entity);
+			CrucibleKazhdyiTikVRukieProcedure.execute(entity, itemstack);
 	}
 }

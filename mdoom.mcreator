@@ -183,6 +183,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -227,6 +231,74 @@
         "files": [
           "src/main/java/net/mcreator/mdoom/item/TheCrucibleItem.java",
           "src/main/resources/assets/mdoom/models/item/the_crucible.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerOfCrucibleUsloviiePokazaNalozhieniia",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_of_crucible_usloviie_pokaza_nalozhieniia",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/PowerOfCrucibleUsloviiePokazaNalozhieniiaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerOfCrucible",
+      "type": "overlay",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_of_crucible",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/client/screens/PowerOfCrucibleOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedCrusibleHandlePriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crusible_handle_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/AdvancedCrusibleHandlePriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
