@@ -16,6 +16,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.mdoom.init.MdoomModItems;
+import net.mcreator.mdoom.MdoomMod;
 
 public class HeavyGunUsagePoslieIspolzovaniiaSnariadaProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
@@ -39,14 +40,16 @@ public class HeavyGunUsagePoslieIspolzovaniiaSnariadaProcedure {
 			}
 		}.checkGamemode(entity)) {
 			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(MdoomModItems.HEAVY_GUN_ITEM.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-			}
-			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(MdoomModItems.HEAVY_GUN_GUN.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			MdoomMod.queueServerWork(3, () -> {
+				if (entity instanceof Player _player) {
+					ItemStack _setstack = new ItemStack(MdoomModItems.HEAVY_GUN_ITEM.get());
+					_setstack.setCount(1);
+					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+				}
+			});
 		}
 	}
 }

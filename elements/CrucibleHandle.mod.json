@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "5eyrteer",
     "customModelName": "the_crucible_of_the_execution:default",
+    "customProperties": {},
+    "states": [],
     "name": "Crucible Handle",
     "rarity": "RARE",
     "creativeTab": {

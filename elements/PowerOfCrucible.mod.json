@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "overlay",
   "definition": {
     "priority": "NORMAL",
@@ -7,10 +7,37 @@
       {
         "type": "image",
         "data": {
-          "image": "cursorcrusible000.png",
+          "image": "cursorcrusible3.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerOfCrucible0"
+          },
           "x": 180,
-          "y": 106
+          "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cursorcrusible2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerOfCrucible02"
+          },
+          "x": 180,
+          "y": 104
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cursorcrusible1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerOfCrucible03"
+          },
+          "x": 180,
+          "y": 104
         }
       }
     ],

@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "heavygun",
     "customModelName": "heavygun:default",
+    "customProperties": {},
+    "states": [],
     "name": "Heavy Gun (No Ammo)",
     "rarity": "UNCOMMON",
     "creativeTab": {

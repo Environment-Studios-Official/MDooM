@@ -19,7 +19,7 @@ public class TheCrucibleItem extends SwordItem {
 	public TheCrucibleItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 3;
+				return 4;
 			}
 
 			public float getSpeed() {
@@ -61,6 +61,6 @@ public class TheCrucibleItem extends SwordItem {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			CrucibleKazhdyiTikVRukieProcedure.execute(entity, itemstack);
+			CrucibleKazhdyiTikVRukieProcedure.execute(world, entity, itemstack);
 	}
 }

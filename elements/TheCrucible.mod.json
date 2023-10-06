@@ -1,7 +1,8 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "tool",
   "definition": {
+    "toolType": "Sword",
     "renderType": 1,
     "texture": "ieuchie",
     "customModelName": "the_crucible_of_:default",
@@ -10,13 +11,12 @@
     "creativeTab": {
       "value": "COMBAT"
     },
-    "toolType": "Sword",
     "harvestLevel": 6,
     "efficiency": 1.0,
     "attackSpeed": 1.6,
     "enchantability": 2,
     "damageVsEntity": 1000.0,
-    "usageCount": 3,
+    "usageCount": 4,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],

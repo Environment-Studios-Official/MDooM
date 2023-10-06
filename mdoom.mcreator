@@ -187,6 +187,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -301,6 +305,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "PowerOfCrucible02",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_of_crucible_02",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/PowerOfCrucible02Procedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PowerOfCrucible03",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_of_crucible_03",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/PowerOfCrucible03Procedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PowerOfCrucible0",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_of_crucible_0",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/mdoom/procedures/PowerOfCrucible0Procedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -340,5 +389,5 @@
     "modElementsPackage": "net.mcreator.mdoom",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300336712
 }
