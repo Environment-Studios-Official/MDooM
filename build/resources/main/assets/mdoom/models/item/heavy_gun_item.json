@@ -1,7 +1,0 @@
-{
-  "parent": "mdoom:custom/heavygun",
-  "textures": {
-    "0": "mdoom:block/fgdfdd",
-    "particle": "mdoom:item/heavygun"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "mdoom:custom/the_crucible_of_",
-  "textures": {
-    "0": "mdoom:block/dgfgdd",
-    "particle": "mdoom:item/ieuchie"
-  }
-}
