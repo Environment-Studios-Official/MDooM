@@ -75,8 +75,8 @@
       "registry_name": "argent_energy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mdoom/item/ArgentEnergyItem.java",
-          "src/main/resources/assets/mdoom/models/item/argent_energy.json"
+          "src/main/resources/assets/mdoom/models/item/argent_energy.json",
+          "src/main/java/net/mcreator/mdoom/item/ArgentEnergyItem.java"
         ]
       }
     },
@@ -204,8 +204,8 @@
       "registry_name": "heavy_gun_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mdoom/models/item/heavy_gun_item.json",
-          "src/main/java/net/mcreator/mdoom/item/HeavyGunItemItem.java"
+          "src/main/java/net/mcreator/mdoom/item/HeavyGunItemItem.java",
+          "src/main/resources/assets/mdoom/models/item/heavy_gun_item.json"
         ]
       }
     },
@@ -219,8 +219,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/mdoom/item/HeavyGunGunItem.java",
-          "src/main/java/net/mcreator/mdoom/entity/HeavyGunGunEntity.java",
-          "src/main/resources/assets/mdoom/models/item/heavy_gun_gun.json"
+          "src/main/resources/assets/mdoom/models/item/heavy_gun_gun.json",
+          "src/main/java/net/mcreator/mdoom/entity/HeavyGunGunEntity.java"
         ]
       }
     },
