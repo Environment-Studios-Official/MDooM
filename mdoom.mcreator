@@ -307,61 +307,68 @@
       }
     },
     {
-      "name": "PowerOfCrucible02",
-      "type": "procedure",
-      "sortid": 25,
+      "name": "Test",
+      "type": "musicdisc",
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "power_of_crucible_02",
+      "registry_name": "test",
       "metadata": {
-        "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/mdoom/procedures/PowerOfCrucible02Procedure.java"
-        ],
-        "dependencies": []
+          "src/main/java/net/mcreator/mdoom/item/TestItem.java",
+          "src/main/resources/assets/mdoom/models/item/test.json"
+        ]
       }
     },
     {
-      "name": "PowerOfCrucible03",
-      "type": "procedure",
-      "sortid": 26,
+      "name": "Faust",
+      "type": "musicdisc",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "power_of_crucible_03",
+      "registry_name": "faust",
       "metadata": {
-        "return_type": "logic",
         "files": [
-          "src/main/java/net/mcreator/mdoom/procedures/PowerOfCrucible03Procedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
-      "name": "PowerOfCrucible0",
-      "type": "procedure",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "power_of_crucible_0",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/mdoom/procedures/PowerOfCrucible0Procedure.java"
-        ],
-        "dependencies": []
+          "src/main/java/net/mcreator/mdoom/item/FaustItem.java",
+          "src/main/resources/assets/mdoom/models/item/faust.json"
+        ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "the_trial_of_maligogg",
+      "files": [
+        "andrew_hulshult_david_levy_-_the_trial_of_maligog_doom_eternal_the_ancient_gods_ost_72657646_online-audio-converter.com"
+      ],
+      "category": "music",
+      "subtitle": "Andrew Hulshult \u0026 David Levy - The Trial of Maligog"
+    },
+    {
+      "name": "faust",
+      "files": [
+        "mick_gordon_-_faust_67964133_online-audio-converter.com"
+      ],
+      "category": "music",
+      "subtitle": "Mick Gordon - Faust"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.mdoom.argent_energy": "Clot of Argent Energy",
       "item.mdoom.heavy_gun_item": "Heavy Gun (No Ammo)",
+      "subtitles.the_trial_of_maligogg": "Andrew Hulshult \u0026 David Levy - The Trial of Maligog",
+      "item.mdoom.test": "The Trial of Maligog",
+      "item.mdoom.test.desc": "Andrew Hulshult \u0026 David Levy - The Trial of Maligog",
+      "item.mdoom.faust": "Mick Gordon - Faust",
+      "subtitles.the_trial_of_maligog": "Andrew Hulshut \u0026 David Levy - The Trial of Maligog",
+      "item.mdoom.faust.desc": "Mick Gordon - Faust",
       "item.mdoom.crucible_handle": "Crucible Handle",
       "item.mdoom.advanced_crusible_handle": "Advanced Crusible Handle",
       "item.mdoom.ammo": "Ammo",
       "item.mdoom.heavy_gun_gun": "Heavy Gun",
+      "subtitles.faust": "Mick Gordon - Faust",
       "item.mdoom.the_crucible": "The Crucible"
     }
   },

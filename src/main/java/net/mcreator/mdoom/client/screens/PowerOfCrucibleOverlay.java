@@ -16,9 +16,6 @@ import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.mdoom.procedures.PowerOfCrucibleUsloviiePokazaNalozhieniiaProcedure;
-import net.mcreator.mdoom.procedures.PowerOfCrucible0Procedure;
-import net.mcreator.mdoom.procedures.PowerOfCrucible03Procedure;
-import net.mcreator.mdoom.procedures.PowerOfCrucible02Procedure;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.platform.GlStateManager;
@@ -49,18 +46,9 @@ public class PowerOfCrucibleOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (PowerOfCrucibleUsloviiePokazaNalozhieniiaProcedure.execute(entity)) {
-			if (PowerOfCrucible0Procedure.execute()) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("mdoom:textures/screens/cursorcrusible3.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -33, posY + -16, 0, 0, 64, 64, 64, 64);
-			}
-			if (PowerOfCrucible02Procedure.execute()) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("mdoom:textures/screens/cursorcrusible2.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -33, posY + -16, 0, 0, 64, 64, 64, 64);
-			}
-			if (PowerOfCrucible03Procedure.execute()) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("mdoom:textures/screens/cursorcrusible1.png"));
-				Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -33, posY + -16, 0, 0, 64, 64, 64, 64);
-			}
+			RenderSystem.setShaderTexture(0, new ResourceLocation("mdoom:textures/screens/cursorcrusible3.png"));
+			Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -33, posY + -16, 0, 0, 64, 64, 64, 64);
+
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

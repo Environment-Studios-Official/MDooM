@@ -2,9 +2,9 @@
   "_fv": 47,
   "_type": "item",
   "definition": {
-    "renderType": 0,
-    "texture": "ammodoom",
-    "customModelName": "Normal",
+    "renderType": 1,
+    "texture": "ammo",
+    "customModelName": "ammo:default",
     "customProperties": {},
     "states": [],
     "name": "Ammo",

@@ -9,33 +9,6 @@
         "data": {
           "image": "cursorcrusible3.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "PowerOfCrucible0"
-          },
-          "x": 180,
-          "y": 104
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "cursorcrusible2.png",
-          "use1Xscale": false,
-          "displayCondition": {
-            "name": "PowerOfCrucible02"
-          },
-          "x": 180,
-          "y": 104
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "cursorcrusible1.png",
-          "use1Xscale": false,
-          "displayCondition": {
-            "name": "PowerOfCrucible03"
-          },
           "x": 180,
           "y": 104
         }

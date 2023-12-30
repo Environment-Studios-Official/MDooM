@@ -1,7 +1,7 @@
 {
-  "parent": "mdoom:custom/heavygun",
+  "parent": "mdoom:custom/heavygunitem",
   "textures": {
-    "0": "mdoom:block/fgdfdd",
-    "particle": "mdoom:item/heavygun"
+    "0": "mdoom:block/heavygunitem",
+    "particle": "mdoom:item/heavygunitem"
   }
 }

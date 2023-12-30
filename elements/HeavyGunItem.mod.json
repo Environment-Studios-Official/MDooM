@@ -3,8 +3,8 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "heavygun",
-    "customModelName": "heavygun:default",
+    "texture": "heavygunitem",
+    "customModelName": "heavygunitem:default",
     "customProperties": {},
     "states": [],
     "name": "Heavy Gun (No Ammo)",

@@ -25,6 +25,8 @@ public class MdoomModTabs {
 			tabData.accept(MdoomModItems.CRUCIBLE_HANDLE.get());
 			tabData.accept(MdoomModItems.ADVANCED_CRUSIBLE_HANDLE.get());
 			tabData.accept(MdoomModItems.ARGENT_ENERGY.get());
+			tabData.accept(MdoomModItems.TEST.get());
+			tabData.accept(MdoomModItems.FAUST.get());
 		}
 	}
 }

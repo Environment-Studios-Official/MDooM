@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Mick Gordon - Faust",
+    "texture": "vinil_faust",
+    "description": "Mick Gordon - Faust",
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:faust"
+    },
+    "lengthInTicks": 3960,
+    "analogOutput": 0
+  }
+}

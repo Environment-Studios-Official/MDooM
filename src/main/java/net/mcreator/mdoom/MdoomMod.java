@@ -31,6 +31,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mdoom.init.MdoomModSounds;
 import net.mcreator.mdoom.init.MdoomModItems;
 import net.mcreator.mdoom.init.MdoomModEntities;
 
@@ -51,6 +52,7 @@ public class MdoomMod {
 	public MdoomMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		MdoomModSounds.REGISTRY.register(bus);
 
 		MdoomModItems.REGISTRY.register(bus);
 		MdoomModEntities.REGISTRY.register(bus);

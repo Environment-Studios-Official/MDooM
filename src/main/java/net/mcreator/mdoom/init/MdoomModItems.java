@@ -11,8 +11,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.mdoom.item.TheCrucibleItem;
+import net.mcreator.mdoom.item.TestItem;
 import net.mcreator.mdoom.item.HeavyGunItemItem;
 import net.mcreator.mdoom.item.HeavyGunGunItem;
+import net.mcreator.mdoom.item.FaustItem;
 import net.mcreator.mdoom.item.CrucibleHandleItem;
 import net.mcreator.mdoom.item.ArgentEnergyItem;
 import net.mcreator.mdoom.item.AmmoItem;
@@ -28,4 +30,6 @@ public class MdoomModItems {
 	public static final RegistryObject<Item> HEAVY_GUN_ITEM = REGISTRY.register("heavy_gun_item", () -> new HeavyGunItemItem());
 	public static final RegistryObject<Item> HEAVY_GUN_GUN = REGISTRY.register("heavy_gun_gun", () -> new HeavyGunGunItem());
 	public static final RegistryObject<Item> THE_CRUCIBLE = REGISTRY.register("the_crucible", () -> new TheCrucibleItem());
+	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
+	public static final RegistryObject<Item> FAUST = REGISTRY.register("faust", () -> new FaustItem());
 }

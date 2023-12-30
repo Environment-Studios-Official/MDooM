@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "The Trial of Maligog",
+    "texture": "vinil_tom",
+    "description": "Andrew Hulshult & David Levy - The Trial of Maligog",
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:the_trial_of_maligogg"
+    },
+    "lengthInTicks": 6600,
+    "analogOutput": 0
+  }
+}
