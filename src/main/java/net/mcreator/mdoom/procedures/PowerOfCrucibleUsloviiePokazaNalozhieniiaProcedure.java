@@ -4,8 +4,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.mdoom.init.MdoomModItems;
-
 public class PowerOfCrucibleUsloviiePokazaNalozhieniiaProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)

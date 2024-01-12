@@ -26,8 +26,6 @@ public class PowerOfCrucibleOverlay {
 	public static void eventHandler(RenderGuiEvent.Pre event) {
 		int w = event.getWindow().getGuiScaledWidth();
 		int h = event.getWindow().getGuiScaledHeight();
-		int posX = w / 2;
-		int posY = h / 2;
 		Level world = null;
 		double x = 0;
 		double y = 0;
@@ -47,7 +45,7 @@ public class PowerOfCrucibleOverlay {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (PowerOfCrucibleUsloviiePokazaNalozhieniiaProcedure.execute(entity)) {
 			RenderSystem.setShaderTexture(0, new ResourceLocation("mdoom:textures/screens/cursorcrusible3.png"));
-			Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -33, posY + -16, 0, 0, 64, 64, 64, 64);
+			Minecraft.getInstance().gui.blit(event.getPoseStack(), w / 2 + -33, h / 2 + -16, 0, 0, 64, 64, 64, 64);
 
 		}
 		RenderSystem.depthMask(true);

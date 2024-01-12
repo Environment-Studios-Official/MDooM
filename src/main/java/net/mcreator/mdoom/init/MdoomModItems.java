@@ -28,8 +28,8 @@ public class MdoomModItems {
 	public static final RegistryObject<Item> ARGENT_ENERGY = REGISTRY.register("argent_energy", () -> new ArgentEnergyItem());
 	public static final RegistryObject<Item> AMMO = REGISTRY.register("ammo", () -> new AmmoItem());
 	public static final RegistryObject<Item> HEAVY_GUN_ITEM = REGISTRY.register("heavy_gun_item", () -> new HeavyGunItemItem());
-	public static final RegistryObject<Item> HEAVY_GUN_GUN = REGISTRY.register("heavy_gun_gun", () -> new HeavyGunGunItem());
 	public static final RegistryObject<Item> THE_CRUCIBLE = REGISTRY.register("the_crucible", () -> new TheCrucibleItem());
 	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
 	public static final RegistryObject<Item> FAUST = REGISTRY.register("faust", () -> new FaustItem());
+	public static final RegistryObject<Item> HEAVY_GUN_GUN = REGISTRY.register("heavy_gun_gun", () -> new HeavyGunGunItem());
 }

@@ -13,8 +13,6 @@
  */
 package net.mcreator.mdoom;
 
-import software.bernie.geckolib.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -33,7 +31,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mdoom.init.MdoomModSounds;
 import net.mcreator.mdoom.init.MdoomModItems;
-import net.mcreator.mdoom.init.MdoomModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,9 +52,7 @@ public class MdoomMod {
 		MdoomModSounds.REGISTRY.register(bus);
 
 		MdoomModItems.REGISTRY.register(bus);
-		MdoomModEntities.REGISTRY.register(bus);
 
-		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

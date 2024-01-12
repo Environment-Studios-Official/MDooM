@@ -98,7 +98,7 @@
       "name": "HeavyGunPriShchielchkiePKM",
       "type": "procedure",
       "sortid": 13,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "heavy_gun_pri_shchielchkie_pkm",
       "metadata": {
@@ -133,7 +133,7 @@
       "name": "HeavyGunUsagePoslieIspolzovaniiaSnariada",
       "type": "procedure",
       "sortid": 14,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "heavy_gun_usage_poslie_ispolzovaniia_snariada",
       "metadata": {
@@ -172,7 +172,7 @@
       "name": "CrucibleKazhdyiTikVRukie",
       "type": "procedure",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "crucible_kazhdyi_tik_v_rukie",
       "metadata": {
@@ -210,21 +210,6 @@
       }
     },
     {
-      "name": "HeavyGunGun",
-      "type": "rangeditem",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heavy_gun_gun",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mdoom/item/HeavyGunGunItem.java",
-          "src/main/resources/assets/mdoom/models/item/heavy_gun_gun.json",
-          "src/main/java/net/mcreator/mdoom/entity/HeavyGunGunEntity.java"
-        ]
-      }
-    },
-    {
       "name": "TheCrucible",
       "type": "tool",
       "sortid": 19,
@@ -242,7 +227,7 @@
       "name": "PowerOfCrucibleUsloviiePokazaNalozhieniia",
       "type": "procedure",
       "sortid": 20,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "power_of_crucible_usloviie_pokaza_nalozhieniia",
       "metadata": {
@@ -275,7 +260,7 @@
       "name": "AdvancedCrusibleHandlePriShchielchkiePKM",
       "type": "procedure",
       "sortid": 22,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "advanced_crusible_handle_pri_shchielchkie_pkm",
       "metadata": {
@@ -331,6 +316,20 @@
         "files": [
           "src/main/java/net/mcreator/mdoom/item/FaustItem.java",
           "src/main/resources/assets/mdoom/models/item/faust.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavyGunGun",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_gun_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mdoom/item/HeavyGunGunItem.java",
+          "src/main/resources/assets/mdoom/models/item/heavy_gun_gun.json"
         ]
       }
     }
@@ -396,5 +395,5 @@
     "modElementsPackage": "net.mcreator.mdoom",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300336712
+  "mcreatorVersion": 202300452316
 }

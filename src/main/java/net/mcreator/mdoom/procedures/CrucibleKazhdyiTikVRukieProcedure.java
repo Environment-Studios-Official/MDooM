@@ -10,7 +10,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.mdoom.init.MdoomModItems;
 import net.mcreator.mdoom.MdoomMod;
 
 public class CrucibleKazhdyiTikVRukieProcedure {

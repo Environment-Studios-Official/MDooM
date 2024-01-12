@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 1,
+    "blockingRenderType": 0,
     "texture": "ieuchie",
     "customModelName": "the_crucible_of_:default",
+    "blockingModelName": "Normal blocking",
     "name": "The Crucible",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -18,7 +22,6 @@
     "damageVsEntity": 1000.0,
     "usageCount": 4,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,

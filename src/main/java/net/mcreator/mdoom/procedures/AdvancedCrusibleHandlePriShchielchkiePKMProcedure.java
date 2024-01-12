@@ -16,7 +16,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.mdoom.init.MdoomModItems;
 import net.mcreator.mdoom.MdoomMod;
 
 public class AdvancedCrusibleHandlePriShchielchkiePKMProcedure {

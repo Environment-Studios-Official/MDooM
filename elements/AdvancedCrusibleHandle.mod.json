@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 1,
@@ -26,17 +26,23 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "The power of this item is dormant",
-      "charge it with argent energy to awaken its full potential"
-    ],
-    "hasGlow": true,
+    "specialInformation": {
+      "fixedValue": [
+        "The power of this item is dormant",
+        "charge it with argent energy to awaken its full potential"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
       "name": "AdvancedCrusibleHandlePriShchielchkiePKM"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

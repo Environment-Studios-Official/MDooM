@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 1,
@@ -26,14 +26,17 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "A rare artifact capable of creating a weapon that destroys Titans",
-      "to activate it he needs the mark of the executioner and argent energy"
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "A rare artifact capable of creating a weapon that destroys Titans",
+        "to activate it he needs the mark of the executioner and argent energy"
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
