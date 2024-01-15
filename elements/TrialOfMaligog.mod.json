@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "The Trial Of Maligog",
+    "rarity": "RARE",
+    "texture": "b563d9d7f96e63cb",
+    "description": "Andrew Hulshut & David Levy - The Trial of Maligog",
+    "creativeTab": {
+      "value": "MATERIALS"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:trial_of_maligog"
+    },
+    "lengthInTicks": 6980,
+    "analogOutput": 0
+  }
+}

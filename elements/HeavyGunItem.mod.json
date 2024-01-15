@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "heavygunitem",
+    "texture": "heavygun",
     "customModelName": "heavygunitem:default",
     "customProperties": {},
     "states": [],
     "name": "Heavy Gun (No Ammo)",
-    "rarity": "UNCOMMON",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -29,14 +29,20 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "HeavyGunPriShchielchkiePKM"
+      "name": "HeavyGunItemPriShchielchkiePKM"
     },
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

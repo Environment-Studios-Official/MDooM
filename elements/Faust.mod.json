@@ -2,15 +2,18 @@
   "_fv": 57,
   "_type": "musicdisc",
   "definition": {
-    "name": "Mick Gordon - Faust",
+    "name": "Faust",
     "rarity": "RARE",
-    "texture": "vinil_faust",
+    "texture": "92642b632077994e",
     "description": "Mick Gordon - Faust",
     "creativeTab": {
       "value": "MATERIALS"
     },
     "specialInformation": {
       "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
     },
     "music": {
       "value": "CUSTOM:faust"

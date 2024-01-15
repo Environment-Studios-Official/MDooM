@@ -1,0 +1,362 @@
+{
+  "mod_elements": [
+    {
+      "name": "SphereOfArgentEnergy",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphere_of_argent_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/item/SphereOfArgentEnergyItem.java",
+          "src/main/resources/assets/minedoom/models/item/sphere_of_argent_energy.json"
+        ]
+      }
+    },
+    {
+      "name": "AmmoHeavyGun",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammo_heavy_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/item/AmmoHeavyGunItem.java",
+          "src/main/resources/assets/minedoom/models/item/ammo_heavy_gun.json"
+        ]
+      }
+    },
+    {
+      "name": "TrialOfMaligog",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trial_of_maligog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/item/TrialOfMaligogItem.java",
+          "src/main/resources/assets/minedoom/models/item/trial_of_maligog.json"
+        ]
+      }
+    },
+    {
+      "name": "Faust",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minedoom/models/item/faust.json",
+          "src/main/java/net/mcreator/minedoom/item/FaustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheCrucible",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_crucible",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minedoom/models/item/the_crucible.json",
+          "src/main/java/net/mcreator/minedoom/item/TheCrucibleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedCrusibleHandle",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crusible_handle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/item/AdvancedCrusibleHandleItem.java",
+          "src/main/resources/assets/minedoom/models/item/advanced_crusible_handle.json"
+        ]
+      }
+    },
+    {
+      "name": "TheCrucibleKazhdyiTikVRukie",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_crucible_kazhdyi_tik_v_rukie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/procedures/TheCrucibleKazhdyiTikVRukieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheCruciblePriUdariePoSushchnostiInstrumientom",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_crucible_pri_udarie_po_sushchnosti_instrumientom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/procedures/TheCruciblePriUdariePoSushchnostiInstrumientomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheCruciblePriPoluchieniiPriedmietaPoRietsieptu",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_crucible_pri_poluchienii_priedmieta_po_rietsieptu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/procedures/TheCruciblePriPoluchieniiPriedmietaPoRietsieptuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedCrusibleHandlePriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crusible_handle_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/procedures/AdvancedCrusibleHandlePriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrucibleHandle",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_handle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/item/CrucibleHandleItem.java",
+          "src/main/resources/assets/minedoom/models/item/crucible_handle.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavyGunGun",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_gun_gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minedoom/models/item/heavy_gun_gun.json",
+          "src/main/java/net/mcreator/minedoom/item/HeavyGunGunItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HeavyGunItem",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_gun_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minedoom/models/item/heavy_gun_item.json",
+          "src/main/java/net/mcreator/minedoom/item/HeavyGunItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HeavyGunItemPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_gun_item_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/procedures/HeavyGunItemPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeavyGunGunPoslieIspolzovaniiaSnariada",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_gun_gun_poslie_ispolzovaniia_snariada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minedoom/procedures/HeavyGunGunPoslieIspolzovaniiaSnariadaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "trial_of_maligog",
+      "files": [
+        "andrew_hulshult_david_levy_-_the_trial_of_maligog_doom_eternal_the_ancient_gods_ost_72657646_online-audio-converter.com"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "faust",
+      "files": [
+        "mick_gordon_-_faust_67964133_online-audio-converter.com"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.minedoom.faust.desc": "Mick Gordon - Faust",
+      "item.minedoom.heavy_gun_gun": "Heavy Gun",
+      "item.minedoom.trial_of_maligog.desc": "Andrew Hulshut \u0026 David Levy - The Trial of Maligog",
+      "item.minedoom.ammo_heavy_gun": "Heavy Gun Ammo",
+      "item.minedoom.the_crucible": "The Crucible",
+      "item.minedoom.advanced_crusible_handle": "Advanced Crusible Handle",
+      "item.minedoom.crucible_handle": "Crucible Handle",
+      "item.minedoom.heavy_gun_item": "Heavy Gun (No Ammo)",
+      "subtitles.trial_of_maligog": "",
+      "item.minedoom.faust": "Faust",
+      "item.minedoom.sphere_of_argent_energy": "Sphere of Argent Energy",
+      "item.minedoom.trial_of_maligog": "The Trial Of Maligog",
+      "subtitles.faust": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minedoom",
+    "modName": "MineDooM",
+    "version": "1.0.0",
+    "author": "DoomCot, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.minedoom",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

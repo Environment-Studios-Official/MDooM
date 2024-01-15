@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "heavygunitem"
+        "0": "heavygun"
       },
       "name": "default"
     }

@@ -1,0 +1,7 @@
+{
+  "parent": "minedoom:custom/ammo",
+  "textures": {
+    "0": "minedoom:block/ammo",
+    "particle": "minedoom:item/ammo"
+  }
+}

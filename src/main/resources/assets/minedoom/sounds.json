@@ -1,0 +1,18 @@
+{
+  "trial_of_maligog": {
+    "sounds": [
+      {
+        "name": "minedoom:andrew_hulshult_david_levy_-_the_trial_of_maligog_doom_eternal_the_ancient_gods_ost_72657646_online-audio-converter.com",
+        "stream": true
+      }
+    ]
+  },
+  "faust": {
+    "sounds": [
+      {
+        "name": "minedoom:mick_gordon_-_faust_67964133_online-audio-converter.com",
+        "stream": true
+      }
+    ]
+  }
+}

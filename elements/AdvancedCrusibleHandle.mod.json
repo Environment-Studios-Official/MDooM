@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "rgwrgwr",
+    "texture": "tex",
     "customModelName": "the_crucible_of_the_executioner:default",
     "customProperties": {},
     "states": [],
@@ -43,6 +43,9 @@
     },
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

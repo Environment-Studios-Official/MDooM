@@ -1,7 +1,0 @@
-{
-  "parent": "mdoom:custom/ammo",
-  "textures": {
-    "0": "mdoom:block/ammo",
-    "particle": "mdoom:item/ammo"
-  }
-}

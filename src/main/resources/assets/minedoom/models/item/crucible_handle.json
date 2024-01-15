@@ -1,0 +1,7 @@
+{
+  "parent": "minedoom:custom/the_crucible_of_the_execution",
+  "textures": {
+    "0": "minedoom:block/texi",
+    "particle": "minedoom:item/texi"
+  }
+}

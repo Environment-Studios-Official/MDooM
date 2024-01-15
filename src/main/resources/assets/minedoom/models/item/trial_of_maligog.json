@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minedoom:item/b563d9d7f96e63cb"
+  }
+}

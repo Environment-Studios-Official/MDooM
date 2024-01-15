@@ -8,7 +8,7 @@
     "customProperties": {},
     "states": [],
     "name": "Heavy Gun",
-    "rarity": "COMMON",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "No creative tab entry"
     },
@@ -21,7 +21,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -32,6 +32,7 @@
     "glowCondition": {
       "fixedValue": false
     },
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": true,
@@ -40,16 +41,16 @@
       "value": "SpectralArrow"
     },
     "onRangedItemUsed": {
-      "name": "HeavyGunUsagePoslieIspolzovaniiaSnariada"
+      "name": "HeavyGunGunPoslieIspolzovaniiaSnariada"
     },
     "isFood": false,
-    "nutritionalValue": 0,
-    "saturation": 0.30000001192092896,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "none"
+    "animation": "bow"
   }
 }

@@ -5,7 +5,7 @@
     "toolType": "Sword",
     "renderType": 1,
     "blockingRenderType": 0,
-    "texture": "ieuchie",
+    "texture": "texture",
     "customModelName": "the_crucible_of_:default",
     "blockingModelName": "Normal blocking",
     "name": "The Crucible",
@@ -22,18 +22,21 @@
     "damageVsEntity": 1000.0,
     "usageCount": 4,
     "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onCrafted": {
-      "name": "CruciblePriPoluchieniiPriedmietaPoRietsieptu"
+      "name": "TheCruciblePriPoluchieniiPriedmietaPoRietsieptu"
     },
     "onEntityHitWith": {
-      "name": "CruciblePriShchielchkiePKMPoBloku"
+      "name": "TheCruciblePriUdariePoSushchnostiInstrumientom"
     },
     "onItemInUseTick": {
-      "name": "CrucibleKazhdyiTikVRukie"
+      "name": "TheCrucibleKazhdyiTikVRukie"
     }
   }
 }

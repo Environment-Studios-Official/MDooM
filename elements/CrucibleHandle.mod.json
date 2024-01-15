@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "5eyrteer",
+    "texture": "texi",
     "customModelName": "the_crucible_of_the_execution:default",
     "customProperties": {},
     "states": [],
@@ -29,14 +29,20 @@
     "specialInformation": {
       "fixedValue": [
         "A rare artifact capable of creating a weapon that destroys Titans",
-        "to activate it he needs the mark of the executioner and argent energy"
+        "to activate it, you need the nether star and argent energy"
       ]
+    },
+    "glowCondition": {
+      "fixedValue": false
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
